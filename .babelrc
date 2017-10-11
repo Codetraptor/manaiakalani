@@ -1,0 +1,15 @@
+{
+	"env": {
+		"production": {
+			"presets": ["env", "react"]
+		},
+		"development": {
+			"presets": ["env", "react"],
+			"plugins": ["babel-plugin-styled-components"]
+		},
+		"test": {
+			"presets": ["env", "react"],
+			"plugins": ["babel-plugin-styled-components"]
+		}
+	}
+}

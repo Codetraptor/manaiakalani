@@ -1,0 +1,36 @@
+{
+	"name": "manaiakalani",
+	"version": "0.1.0",
+	"description": "",
+	"main": "dist/index.js",
+	"scripts": {
+		"build": "webpack",
+		"test": "jest --coverage",
+		"storybook": "start-storybook -p 6006",
+		"build-storybook": "build-storybook"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"peerDependencies": {
+		"react": "^16.0.0",
+		"styled-components": "^2.2.1"
+	},
+	"devDependencies": {
+		"@storybook/addon-actions": "^3.2.12",
+		"@storybook/addon-links": "^3.2.12",
+		"@storybook/addon-storyshots": "^3.2.12",
+		"@storybook/react": "^3.2.12",
+		"babel-core": "^6.26.0",
+		"babel-loader": "^7.1.2",
+		"babel-plugin-styled-components": "^1.2.1",
+		"babel-preset-env": "^1.6.0",
+		"babel-preset-react": "^6.24.1",
+		"jest": "^21.2.1",
+		"react": "^16.0.0",
+		"react-dom": "^16.0.0",
+		"react-test-renderer": "^16.0.0",
+		"styled-components": "^2.2.1",
+		"webpack": "^3.6.0"
+	}
+}
